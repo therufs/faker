@@ -134,3 +134,14 @@ en:
       creature: ['ants', 'bats', 'bears', 'bees', 'birds', 'buffalo', 'cats', 'chickens', 'cattle', 'dogs', 'dolphins', 'ducks', 'elephants', 'fishes', 'foxes', 'frogs', 'geese', 'goats', 'horses', 'kangaroos', 'lions', 'monkeys', 'owls', 'oxen', 'penguins', 'people', 'pigs', 'rabbits', 'sheep', 'tigers', 'whales', 'wolves', 'zebras', 'banshees', 'crows', 'black cats', 'chimeras', 'ghosts', 'conspirators', 'dragons', 'dwarves', 'elves', 'enchanters', 'exorcists', 'sons', 'foes', 'giants', 'gnomes', 'goblins', 'gooses', 'griffins', 'lycanthropes', 'nemesis', 'ogres', 'oracles', 'prophets', 'sorcerors', 'spiders', 'spirits', 'vampires', 'warlocks', 'vixens', 'werewolves', 'witches', 'worshipers', 'zombies', 'druids']
       name:
         - "#{Address.state} #{creature}"
+
+    bento:
+      main: [ebichiri, sausage, tuna miso burger, mini burger, gyoza]
+      side: [tamagoyaki, kinpira, pickle salad, sauerkraut, sesame spinich, blanched kale, mini muffin, sweet potato]
+      filler: [grapes, cherry tomatoes, cucumber slices, cauliflower, broccoli, carrot sticks, cheese, umeboshi]
+      starch: [rice, rice, rice, rice with furikake, noodles, a roll]
+      bento: 
+        - "#{main} with #{side}, #{filler}, and #{starch}"
+        - "#{main}, #{side}, #{side}, #{starch}"
+        - "#{main} #{filler} #{side} #{starch}"
+        - "#{main} salad with #{filler}"
