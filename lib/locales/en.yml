@@ -140,16 +140,17 @@ en:
       name:
         - "#{Address.state} #{creature}"
 
-    bento:
-      main: [ebichiri, sausage, tuna miso burger, mini burger, gyoza]
-      side: [tamagoyaki, kinpira, pickle salad, sauerkraut, sesame spinich, blanched kale, mini muffin, sweet potato]
-      filler: [grapes, cherry tomatoes, cucumber slices, cauliflower, broccoli, carrot sticks, cheese, umeboshi]
-      starch: [rice, rice, rice, rice with furikake, noodles, a roll]
+    food:
       bento:
-        - "#{main} with #{side}, #{filler}, and #{starch}"
-        - "#{main}, #{side}, #{side}, #{starch}"
-        - "#{main} #{filler} #{side} #{starch}"
-        - "#{main} salad with #{filler}"
+        main: [ebichiri, sausage, tuna miso burger, mini burger, gyoza]
+        side: [tamagoyaki, kinpira, pickle salad, sauerkraut, sesame spinich, blanched kale, mini muffins, sweet potato]
+        filler: [grapes, cherry tomatoes, cucumber slices, cauliflower, broccoli, carrot sticks, cheese, umeboshi]
+        starch: [rice, rice, rice, rice with furikake, noodles, a roll]
+        bento:
+          - "#{main} with #{side}, #{filler}, and #{starch}"
+          - "#{main}, #{side}, #{side}, #{starch}"
+          - "#{main} #{filler} #{side} #{starch}"
+          - "#{main} salad with #{filler}"
 
     hacker:
       abbreviation: [TCP,HTTP,SDD,RAM,GB,CSS,SSL,AGP,SQL,FTP,PCI,AI,ADP,RSS,XML,EXE,COM,HDD,THX,SMTP,SMS,USB,PNG,SAS,IB,SCSI,JSON,XSS,JBOD]

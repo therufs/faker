@@ -1,12 +1,9 @@
 module Faker
-  class Bento < Base
-
+  class Food < Base
     class << self
-
       def bento
-        parse('bento.bento')
+        parse('food.bento.bento')
       end
-
     end
   end
 end
