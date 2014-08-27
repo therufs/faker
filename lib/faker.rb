@@ -176,7 +176,6 @@ require 'faker/date'
 require 'faker/time'
 require 'faker/number'
 require 'faker/hacker'
-binding.pry
 require 'faker/app'
 require 'faker/food'
 
