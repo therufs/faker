@@ -141,16 +141,22 @@ en:
         - "#{Address.state} #{creature}"
 
     food:
+      style: [rare, braised, baked, broiled, simmered, grilled, seared, sliced]
+      meat: [beef, ground beef, veal, pork loin, pork chops, ham, duck, lamb, goat]
+      veg: [potato, sweet potato, corn, carrot, kale, spinach, pepper, squash]
+      format: [sandwiches, pie, a l'orange, en papillote]
+      flavor: [orange, garlic, dill, lemon, miso, tomato]
+      garnish: [aioli, parsley, chives, capers, reduction, gravy]
+      hipster: [local, scented, house-made, pickled, herbed, smoked, vegan, farm-to-table]
+      pastry:
+        staples: [flour, sugar, brown sugar, butter]
+        fruits: [peaches, raspberries, bananas, blueberries]
+        smalls: [salt, cinnamon, baking powder, baking soda, vanilla]
       bento:
-        main: [ebichiri, sausage, tuna miso burger, mini burger, gyoza]
-        side: [tamagoyaki, kinpira, pickle salad, sauerkraut, sesame spinich, blanched kale, mini muffins, sweet potato]
+        main: [ebichiri, sausage, tuna miso burger, mini burger, gyoza, renkon stew]
+        side: [tamagoyaki, kinpira, pickle salad, sauerkraut, sesame spinach, blanched kale, mini muffins, sweet potato, hijiki]
         filler: [grapes, cherry tomatoes, cucumber slices, cauliflower, broccoli, carrot sticks, cheese, umeboshi]
-        starch: [rice, rice, rice, rice with furikake, noodles, a roll]
-        bento:
-          - "#{main} with #{side}, #{filler}, and #{starch}"
-          - "#{main}, #{side}, #{side}, #{starch}"
-          - "#{main} #{filler} #{side} #{starch}"
-          - "#{main} salad with #{filler}"
+        starch: [rice, rice, rice, rice with furikake, onigiri, noodles, a roll]
 
     hacker:
       abbreviation: [TCP,HTTP,SDD,RAM,GB,CSS,SSL,AGP,SQL,FTP,PCI,AI,ADP,RSS,XML,EXE,COM,HDD,THX,SMTP,SMS,USB,PNG,SAS,IB,SCSI,JSON,XSS,JBOD]
