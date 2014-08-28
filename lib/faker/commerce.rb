@@ -26,7 +26,7 @@ module Faker
       def price
         random = Random.new
         (random.rand(0..100.0) * 100).floor/100.0
-      end    
+      end
 
       private
 
